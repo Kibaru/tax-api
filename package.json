@@ -1,0 +1,23 @@
+{
+  "name": "tax-api",
+  "version": "1.0.0",
+  "description": "Peter api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node src/index.js"
+  },
+  "author": "Simon Kibaru",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0",
+    "nodemailer": "^4.6.4"
+  }
+}

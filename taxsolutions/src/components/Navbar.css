@@ -1,0 +1,47 @@
+.navbar{
+  background: #104E8B;
+  height: auto;
+  padding: 15px 18px;
+  transition: all .5s ease;
+}
+
+.nav-link{
+  color: #fff !important;
+}
+
+.nav-link:hover, .active{
+  border-bottom: 2px #fff solid;
+  /* transition: .4s; */
+}
+
+
+.small {
+  overflow: hidden;
+  padding: 8px 18px;
+  width: 100%;
+  background: #104E8B;
+  transition: all .5s ease;
+}
+
+.header{
+  text-align: center;
+  background: 	#228B22;
+  color: #fff;
+  /* min-height: 60px; */
+  transition: all 1s ease-in-out;
+  margin-bottom: 0;
+}
+
+/* .header h5{
+  margin-top: 10px;
+  padding: 7px;
+  margin: 5px;
+} */
+
+@media(max-width: 568px) {
+  .header{display: none;}
+}
+
+/* <div className={`header`}>
+  <h5>Best Tax Advisory and consultancy services, Speedy Delivery, Great Prices... At Tax Solutions EA Kenya we do it all.</h5>
+ </div> */

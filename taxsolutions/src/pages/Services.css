@@ -1,0 +1,15 @@
+.service ul li{
+  margin-left: 20px;
+  list-style:none;
+}
+
+.service li::before {
+  content: "• ";
+  color: blue;
+  /* width: 2em;
+  height: 2em; */
+}
+
+.service{
+  background: #E6E6FA;
+}

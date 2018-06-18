@@ -1,0 +1,19 @@
+.col-md-4 .btn:hover{
+  background: #104E8B;
+}
+
+.fa.fa-fire{
+  color: #990000;
+}
+
+.form-group label{
+  color:#104E8B;
+}
+
+.important{
+  margin-top: 35px
+}
+
+.important h3{
+  margin-top: 15px
+}
